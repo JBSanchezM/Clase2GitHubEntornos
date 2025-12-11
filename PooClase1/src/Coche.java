@@ -6,18 +6,20 @@ public class Coche {
     public String modelo;
     public int anyo;
     public double kilometraje;
+    public int puertas;
 
     // Constructor
     public Coche() {
         System.out.println("Creando coche");
     }
 
-    public Coche(String coloCoche, int anyoCoche, String marcaCoche, String modelocoche, double kilometrajeCoche) {
+    public Coche(String coloCoche, int anyoCoche, String marcaCoche, String modelocoche, double kilometrajeCoche, int puertasCoche) {
         color = coloCoche;
         anyo = anyoCoche;
         marca = marcaCoche;
         modelo = modelocoche;
         kilometraje = kilometrajeCoche;
+        puertas = puertasCoche;
 
         System.out.println("Creando coche " + marca + " " + modelo);
     }
