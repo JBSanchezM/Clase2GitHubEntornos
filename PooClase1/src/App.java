@@ -13,7 +13,7 @@ public class App {
         toyota.marca = "Audi";
         toyota.modelo = "A8";
 
-        Coche bmw = new Coche("Rojo", 2000, "BMW", "MS");
+        Coche bmw = new Coche("Rojo", 2000, "BMW", "MS", 100.0);
 
         
     }
