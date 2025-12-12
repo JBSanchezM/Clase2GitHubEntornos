@@ -23,4 +23,16 @@ public class Coche {
 
         System.out.println("Creando coche " + marca + " " + modelo);
     }
+
+    public Coche (int anyoCoche, String marcaCoche, String modeloCoche, double kilometrajeCoche){
+        anyo = anyoCoche;
+        marca = marcaCoche;
+        modelo = modeloCoche;
+        kilometraje = kilometrajeCoche;
+
+        
+    System.out.println("El coche "+ marca +" de "+ modelo +" con "+ kilometraje +" KM" + " es del año "+ anyo);
+    }
+
+
 }

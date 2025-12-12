@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) throws Exception {
         
-        Coche audi = new Coche();
-        audi.color = "Gris";
-        audi.anyo = 2007;
-        audi.marca = "Audi";
-        audi.modelo = "A8";
+        Coche c1 = new Coche();
+        c1.color = "Gris";
+        c1.anyo = 2007;
+        c1.marca = "Audi";
+        c1.modelo = "A8";
         
         Coche toyota = new Coche();
         toyota.color = "Gris";
@@ -14,7 +14,9 @@ public class App {
         toyota.modelo = "A8";
 
         Coche bmw = new Coche("Rojo", 2000, "BMW", "MS", 100.0, 4);
+        Coche mercedes = new Coche(2000, "Mercedes", "Clase E", 50000);
 
+        
         
     }
 }
