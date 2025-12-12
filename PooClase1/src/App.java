@@ -22,8 +22,8 @@ public class App {
         System.out.println("El coche "+ toyota.marca +" de "+ toyota.modelo +" con "+ toyota.kilometraje +" KM" + " es del año "+ toyota.anyo);   
 
 
-        Profesor pablo = new Profesor();
-
+        Profesor pablo = new Profesor("z845d", "pablo", 1300);
+        Asignatura sistemas = new Asignatura("Sistemas Informaticos");
 
 
     }
