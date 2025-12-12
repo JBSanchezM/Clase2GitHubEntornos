@@ -13,13 +13,22 @@ public class App {
         toyota.marca = "Audi";
         toyota.modelo = "A8";
 
+        System.out.println("El año del toyota es: "+toyota.anyo);
+        toyota.anyo = 2015;
+        System.out.println("El año del toyota es: "+toyota.anyo);
+
         Coche bmw = new Coche("Rojo", 2000, "BMW", "MS", 100.0, 4);
         Coche mercedes = new Coche(2000, "Mercedes", "Clase E", 50000);
+        System.out.println("El coche "+ toyota.marca +" de "+ toyota.modelo +" con "+ toyota.kilometraje +" KM" + " es del año "+ toyota.anyo);   
 
-                
+
+        Profesor pablo = new Profesor();
+
+
+
     }
 
 
-    Profesor pablo = new Profesor();
+   
 
 }
