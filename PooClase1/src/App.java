@@ -16,7 +16,10 @@ public class App {
         Coche bmw = new Coche("Rojo", 2000, "BMW", "MS", 100.0, 4);
         Coche mercedes = new Coche(2000, "Mercedes", "Clase E", 50000);
 
-        
-        
+                
     }
+
+
+    Profesor pablo = new Profesor();
+
 }
