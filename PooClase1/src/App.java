@@ -23,7 +23,8 @@ public class App {
 
 
         Profesor pablo = new Profesor("z845d", "pablo", 1300);
-        Asignatura sistemas = new Asignatura("Sistemas Informaticos");
+        Asignatura sistemas = new Asignatura("Sistemas Informaticos", pablo);
+        System.out.println("Llamando el metodo sistemas: "+ pablo.dni);
 
 
     }
