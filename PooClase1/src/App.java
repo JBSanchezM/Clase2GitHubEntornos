@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         Coche c1 = new Coche();
-        c1.color = "Gris";
+        c1.color = "Azul";
         c1.anyo = 2007;
         c1.marca = "Audi";
         c1.modelo = "A8";
