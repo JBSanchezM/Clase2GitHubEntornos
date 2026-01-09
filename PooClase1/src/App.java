@@ -28,6 +28,14 @@ public class App {
         System.out.println("El salario del profe de sistemas es: "+ sistemas.docente.salario);
 
 
+        CuentaBancaria cuenta1 = new CuentaBancaria();
+        System.out.println("Saldo inicial de la cuenta 1 es: " + cuenta1.balance);
+
+        CuentaBancaria cuenta2 = new CuentaBancaria(2500);
+        System.out.println("Saldo de la cuenta 2 es: " + cuenta2.balance);
+
+        
+
     }
 
 
