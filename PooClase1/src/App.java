@@ -22,7 +22,7 @@ public class App {
         System.out.println("El coche "+ toyota.marca +" de "+ toyota.modelo +" con "+ toyota.kilometraje +" KM" + " es del año "+ toyota.anyo);   
 
 
-        Profesor pablo = new Profesor("z845d", "pablo", 1300);
+        Profesor pablo = new Profesor("z845d", "pablo Gonzalez", 1300);
         Asignatura sistemas = new Asignatura("Sistemas Informaticos", pablo);
         System.out.println("Llamando el metodo sistemas: "+ pablo.dni);
         System.out.println("El salario del profe de sistemas es: "+ sistemas.docente.salario);

@@ -12,14 +12,5 @@ public CuentaBancaria(double saldoInicial){
 
 }
 
-public boolean ingresarDinero(){
-
-   
-}
-
-public boolean sacarDinero(){
-
-
-}
 
 }
