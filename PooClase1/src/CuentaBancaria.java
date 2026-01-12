@@ -3,7 +3,7 @@ public class CuentaBancaria {
     public double balance;
 
     public CuentaBancaria(){
-        balance = 0;
+        balance = 500;
     }
 
 public CuentaBancaria(double saldoInicial){
@@ -12,14 +12,5 @@ public CuentaBancaria(double saldoInicial){
 
 }
 
-public boolean ingresarDinero(){
-
-   
-}
-
-public boolean sacarDinero(){
-
-
-}
 
 }
