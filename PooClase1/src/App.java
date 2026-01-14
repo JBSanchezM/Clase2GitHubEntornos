@@ -34,7 +34,17 @@ public class App {
         CuentaBancaria cuenta2 = new CuentaBancaria(2500);
         System.out.println("Saldo de la cuenta 2 es: " + cuenta2.balance);
 
+        Calculadora calc = new Calculadora();
+        int resultado = calc.restar(80, 7);
+        resultado *= 2;
+        System.out.println(resultado);
+
+        calc.binevenida("Cuau");
+        calc.binevenida("Marina");
         
+        
+      
+
 
     }
 
