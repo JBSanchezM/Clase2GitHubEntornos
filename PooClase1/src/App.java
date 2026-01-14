@@ -47,6 +47,8 @@ public class App {
         boolean aprobadoNota = calc.aprobado(4.4);
         System.out.println(aprobadoNota);
 
+        double resultado3 = calc.volumenEsfera(5);
+        System.out.println("El volumen es: " + resultado3);
     }
 
 }

@@ -22,12 +22,16 @@ public class Calculadora {
 
     }
 
-
-    public boolean aprobado (double nota) {
+    public boolean aprobado(double nota) {
         if (nota >= 5) {
             return true;
-        }else{
+        } else {
             return false;
         }
+    }
+
+    public double volumenEsfera(double r) {
+        double resultado = (4.0 / 3.0) * 3.1416 * (r * r * r);
+        return resultado;
     }
 }
