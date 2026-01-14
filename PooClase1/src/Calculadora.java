@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Calculadora {
 
     public int restar(int n1, int n2) {
@@ -14,4 +16,18 @@ public class Calculadora {
         return n1 * n1;
     }
 
+    public double media(ArrayList<Double> notas) {
+        double notaMedia = 4.86;
+        return notaMedia;
+
+    }
+
+
+    public boolean aprobado (double nota) {
+        if (nota >= 5) {
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

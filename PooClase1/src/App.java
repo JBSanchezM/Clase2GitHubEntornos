@@ -44,6 +44,9 @@ public class App {
         int resultado2 = calc.elevado(5);
         System.out.println("El resultado es: " + resultado2);
 
+        boolean aprobadoNota = calc.aprobado(4.4);
+        System.out.println(aprobadoNota);
+
     }
 
 }
