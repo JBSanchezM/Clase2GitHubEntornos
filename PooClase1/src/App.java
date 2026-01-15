@@ -49,6 +49,26 @@ public class App {
 
         double resultado3 = calc.volumenEsfera(5);
         System.out.println("El volumen es: " + resultado3);
+
+
+        Bombilla bomb = new Bombilla( "LED", 200, false);
+        Bombilla bomb2 = new Bombilla("null", 150);
+
+        bomb2.potencia -=50;
+        System.out.println("La potencia de la 1 es: " +bomb.potencia);
+
+        System.out.println("Esta encendida la 2 " +bomb2.encendida);
+        bomb2.interruptor(true);
+        System.out.println("Esta encendida la 2"+ bomb2.encendida);
+
+        boolean resultado4 = bomb.estaEncendida(true);
+
+        System.out.println("La bombilla esta: "+resultado4);
+
+        resultado4 = bomb.interruptor(true);
+        System.out.println("Se ha pulsado el interruptor:" + resultado4);
+        
+       
     }
 
 }
