@@ -1,7 +1,12 @@
 import java.util.ArrayList;
 
 public class Calculadora {
-
+/**
+ * Resta dos numeros enteros
+ * @param n1 primer numero
+ * @param n2 segundo numero
+ * @return El resultado de la resta de n1 y n2
+ */
     public int restar(int n1, int n2) {
 
         return n1 - n2;
