@@ -10,7 +10,7 @@ public Bombilla (String t, int pot, boolean enc){
     encendida = enc;
 }
 
-{3}
+
 
 public boolean estaEncendida (boolean encendida){
     encendida = true;
