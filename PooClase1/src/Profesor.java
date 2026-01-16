@@ -13,4 +13,11 @@ public class Profesor {
         salario = salarioProfe;
     }
 
+    
+    public String toString() {
+     
+        return "El profesor " + nombre + ", tiene DNI " + dni + " y cobra " + salario;
+     
+    }
+
 }
