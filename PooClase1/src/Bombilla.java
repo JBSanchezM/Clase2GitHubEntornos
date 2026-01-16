@@ -27,5 +27,10 @@ public boolean interruptor (boolean interruptor){
     } return encendida;
 }
 
+@Override
+public String toString() {
+    return "La bombilla es " +tipo+ " de potencia " +potencia+"W";
+}
+
 }
 

@@ -73,6 +73,8 @@ public class App {
         Perro dog2 = new Perro("Golden", "Grr Guau");
         dog2.ladrar();
         
+        System.out.println(pablo);
+        System.out.println(bomb2);
     }
 
     // Perro dog2
