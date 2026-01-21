@@ -1,8 +1,8 @@
 public class CuentaBancaria {
     
-    public double balance;
+    private double balance;
 
-    public CuentaBancaria(){
+ public CuentaBancaria(){
         balance = 500;
     }
 
@@ -12,5 +12,18 @@ public CuentaBancaria(double saldoInicial){
 
 }
 
+public double getBalance(){
+    return balance;
+}
+
+public void setBalance(double nuevoB){
+
+    balance = nuevoB;
+}
+
+/*public double setBalance(){
+
+    return this.balance;
+}*/
 
 }

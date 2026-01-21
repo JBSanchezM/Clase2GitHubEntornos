@@ -28,10 +28,13 @@ public class App {
         System.out.println("El salario del profe de sistemas es: " + sistemas.docente.salario);
 
         CuentaBancaria cuenta1 = new CuentaBancaria();
-        System.out.println("Saldo inicial de la cuenta 1 es: " + cuenta1.balance);
+        System.out.println("Saldo inicial de la cuenta 1 es: " + cuenta1.getBalance());
+        
+        cuenta1.setBalance(100);
+         System.out.println("Saldo inicial de la cuenta 1 es: " + cuenta1.getBalance());
 
         CuentaBancaria cuenta2 = new CuentaBancaria(2500);
-        System.out.println("Saldo de la cuenta 2 es: " + cuenta2.balance);
+        System.out.println("Saldo de la cuenta 2 es: " + cuenta2.getBalance());
 
         Calculadora calc = new Calculadora();
         int resultado = calc.restar(80, 7);
@@ -75,6 +78,9 @@ public class App {
         
         System.out.println(pablo);
         System.out.println(bomb2);
+
+
+
     }
 
     // Perro dog2
